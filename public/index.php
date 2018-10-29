@@ -1,6 +1,6 @@
 <?php 
  
-echo 'Docker port 80 test.';
+echo 'Docker port 80';
 
 ?>
 <br>
