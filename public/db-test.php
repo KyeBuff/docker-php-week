@@ -2,7 +2,7 @@
 
 // Server is mysql docker container's IP address
 // Found by docker inspect <cid>
-$db_server = "172.18.0.4";
+$db_server = "172.28.1.3";
 $db_username = "test";
 $db_password = "test";
 $db_database = "test";
