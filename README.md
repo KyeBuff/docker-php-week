@@ -33,3 +33,22 @@ $db_database = "test";
 // Create connection
 $db_connection = new mysqli($db_server, $db_username, $db_password, $db_database);
 ```
+
+## Maintaining the Containers
+
+### Starting the containers 
+
+`docker-compose start` - similar to vagrant up
+
+### Stopping the containers 
+
+`docker-compose stop`  - similar to vagrant halt
+
+### Restart the containers 
+
+`docker-compose restart`  - similar to vagrant reload
+
+### Remove all containers
+
+`docker-compose rm`  - similar to vagrant destroy
+
